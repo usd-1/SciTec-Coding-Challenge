@@ -31,7 +31,7 @@ time = ecef_dataset['Unix epoch (ms)']
 vel_result = pd.concat([time, ecef_velocity], axis=1, ignore_index=False)
 
 # Show velocities and convert to csv output to results folder
-vel_result.to_csv(r'~/Desktop/PycharmProjects/SciTec_Solution/results/ECEF Velocities.csv')
+vel_result.to_csv(r'dataset/ECEF Velocities.csv')
 
 # Combine dataframe of enix epoch, x, y, z, and ecef veleocities for next analysis
 df = pd.concat([ecef_dataset, ecef_velocity], axis=1, ignore_index=False)
