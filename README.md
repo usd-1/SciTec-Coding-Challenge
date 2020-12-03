@@ -10,7 +10,7 @@ The idea behind the implementation of this code was to solve 4 problems with a g
 
 1. Read the CSV file located in the 'dataset' folder, which is a dataset that represents a time series of an object using LLA coordinates. 
 2. Convert the LLA coordinates to ECEF coordinates
-3. Calculate ECEF velocity at the time points given in the input file and export them as a csv files called "ECEF Velocities" under 'results' folder.
+3. Calculate ECEF velocity at the time points given in the input file and export them as a csv file called "ECEF Velocities" under 'dataset' folder.
 4. Interpolate ECEF velocity for any requested time. This program should call the function or class created, and evaluate the ECEF velocity vector at two specific times: '1532334000' and '1532335268'. The result should be printed to stdout for both of the given times. 
 
 <h2>Required Versions</h2>
@@ -22,9 +22,12 @@ The idea behind the implementation of this code was to solve 4 problems with a g
 <h2>Steps of Execution</h2>
 
 1. Download this project as zip
-2. Import project to any IDE (I have used PyCharm)
-3. Check that you have all required versions listed. 
-4. Run src_main.py
+2. Check that you have all required versions listed. 
+3. Source src_main.py
+
+<h2>Output Details</h2>
+1. Results from goal 3 are stored in the dataset directory hosted on the root directory. 
+2. Results from goal 4 are printed as stdout on console.
 
 <h2>Project status</h2>
 Finished 12/02/2020
