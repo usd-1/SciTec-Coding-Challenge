@@ -26,6 +26,7 @@ The idea behind the implementation of this code was to solve 4 problems with a g
 3. Source src_main.py
 
 <h2>Output Details</h2>
+
 1. Results from goal 3 are stored in the dataset directory hosted on the root directory. 
 2. Results from goal 4 are printed as stdout on console.
 
