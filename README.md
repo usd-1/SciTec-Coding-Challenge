@@ -19,12 +19,12 @@ The idea behind the implementation of this code was to solve 4 problems with a g
 - numpy 1.8.2
 - scipy 1.19.3
 
-<h2>Installation</h2>
+<h2>Steps of Execution</h2>
 
-1. Download this project as zip and extract all
-2. Import it to ___
+1. Download this project as zip
+2. Import project to any IDE (I have used PyCharm)
 3. Check that you have all required versions listed. 
-4. Run src_main
+4. Run src_main.py
 
 <h2>Project status</h2>
 Finished 12/02/2020
